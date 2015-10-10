@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -114,10 +115,45 @@
                             <constraint firstItem="lgb-Ub-wAd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="tBy-a9-sV4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="8rF-Ph-do7" kind="presentation" identifier="showNew" id="WkQ-It-jvw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1" y="289"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p96-RA-mid">
+            <objects>
+                <viewController id="8rF-Ph-do7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ZE-A2-q2d"/>
+                        <viewControllerLayoutGuide type="bottom" id="9t9-WB-6VY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Ws-WT-nbr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1K-va-y1s">
+                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g1K-va-y1s" firstAttribute="top" secondItem="4ZE-A2-q2d" secondAttribute="bottom" constant="8" symbolic="YES" id="Z0x-am-HlF"/>
+                            <constraint firstItem="9t9-WB-6VY" firstAttribute="top" secondItem="g1K-va-y1s" secondAttribute="bottom" constant="551" id="jk6-S4-Qim"/>
+                            <constraint firstItem="g1K-va-y1s" firstAttribute="trailing" secondItem="5Ws-WT-nbr" secondAttribute="trailingMargin" id="kAA-Ep-Ugm"/>
+                            <constraint firstItem="g1K-va-y1s" firstAttribute="leading" secondItem="5Ws-WT-nbr" secondAttribute="leadingMargin" id="vwd-Xz-0Cp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ClP-eG-64G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="-512"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="qXP-NJ-MGn">
