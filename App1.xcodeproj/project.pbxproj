@@ -14,6 +14,7 @@
 		007707901BC06B9D00297D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0077078E1BC06B9D00297D06 /* LaunchScreen.storyboard */; };
 		0077079B1BC06B9D00297D06 /* App1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077079A1BC06B9D00297D06 /* App1Tests.swift */; };
 		007707A61BC06B9D00297D06 /* App1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007707A51BC06B9D00297D06 /* App1UITests.swift */; };
+		007707B61BC09DDC00297D06 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007707B51BC09DDC00297D06 /* NewViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		007707A11BC06B9D00297D06 /* App1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		007707A51BC06B9D00297D06 /* App1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App1UITests.swift; sourceTree = "<group>"; };
 		007707A71BC06B9D00297D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007707B51BC09DDC00297D06 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				007707851BC06B9D00297D06 /* AppDelegate.swift */,
 				007707871BC06B9D00297D06 /* ViewController.swift */,
 				007707891BC06B9D00297D06 /* Main.storyboard */,
+				007707B51BC09DDC00297D06 /* NewViewController.swift */,
 				0077078C1BC06B9D00297D06 /* Assets.xcassets */,
 				0077078E1BC06B9D00297D06 /* LaunchScreen.storyboard */,
 				007707911BC06B9D00297D06 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007707B61BC09DDC00297D06 /* NewViewController.swift in Sources */,
 				007707881BC06B9D00297D06 /* ViewController.swift in Sources */,
 				007707861BC06B9D00297D06 /* AppDelegate.swift in Sources */,
 			);

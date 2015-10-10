@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //MARK: Properties
+    @IBOutlet weak var nameTextField: UIStackView!
+    @IBOutlet weak var usernameNameLabel: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
