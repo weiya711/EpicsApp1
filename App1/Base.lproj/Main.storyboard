@@ -23,10 +23,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="652-mx-Ntj">
-                                <rect key="frame" x="225" y="503" width="151" height="30"/>
-                                <state key="normal" title="Login with Facebook"/>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ygy-z6-a7P">
                                 <rect key="frame" x="20" y="172" width="173" height="215"/>
                                 <subviews>
@@ -108,9 +104,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UBe-75-dat" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Arp-5r-ufl"/>
-                            <constraint firstItem="652-mx-Ntj" firstAttribute="top" secondItem="UBe-75-dat" secondAttribute="bottom" constant="20" id="XdF-Vp-XvO"/>
                             <constraint firstItem="UBe-75-dat" firstAttribute="top" secondItem="lgb-Ub-wAd" secondAttribute="bottom" constant="350" id="efE-0g-wIH"/>
-                            <constraint firstItem="652-mx-Ntj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mtN-wB-Scr"/>
                             <constraint firstItem="lgb-Ub-wAd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p1c-Jn-JvQ"/>
                             <constraint firstItem="lgb-Ub-wAd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="tBy-a9-sV4"/>
                         </constraints>
@@ -135,7 +129,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1K-va-y1s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1K-va-y1s">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -153,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ClP-eG-64G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="-512"/>
+            <point key="canvasLocation" x="25" y="1368"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="qXP-NJ-MGn">
@@ -235,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJ9-JW-rvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="698" y="305"/>
+            <point key="canvasLocation" x="906" y="313"/>
         </scene>
     </scenes>
 </document>
